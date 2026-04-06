@@ -1,0 +1,22 @@
+phone_no={
+    'ram':1234,
+    'shyam':3456,
+    'mohan':8976
+}    
+phone_no=dict({
+    'ram':1234,
+    'shyam':3456,
+    'mohan':8976
+})
+print(phone_no)
+#phone_no['madhav']={1111,2222,3333}
+#phone_no['shyam']={'shyam_home':5555,'shyam_work':4444}
+#print(phone_no['shyam'])
+#print(phone_no.popitem())
+#print(phone_no)
+#print(phone_no.keys())
+#print((phone_no.values()))
+#print(phone_no.items())
+for i in phone_no:
+    print(i)
+    print(phone_no[i])
